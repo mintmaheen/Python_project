@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""
-FocusFlow Smart Workload Planner - Optional Local Web UI
-Run this file with: python app.py   (Mac: python3 app.py)
-Then open: http://localhost:8000
-
-This web interface uses only Python built-in libraries and reuses main.py.
-"""
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse
